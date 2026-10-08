@@ -57,10 +57,10 @@
 
 **Требования:** Python 3.10+, Pygame 2.x.
 
-
+```bash
 pip install pygame
 python main.py
-
+```
 
 Перед первым запуском убедись, что папка `assets/` на месте и содержит
 все спрайты (см. раздел «Структура проекта»).
@@ -71,8 +71,9 @@ python main.py
 
 В корне проекта лежит `build.bat`. Установи PyInstaller один раз:
 
-
+```bash
 pip install pyinstaller
+```
 
 Затем запусти `build.bat` — готовый файл появится в `dist/`.
 
@@ -83,7 +84,7 @@ pip install pyinstaller
 
 ## Структура проекта
 
-
+```
 .
 ├── main.py              — точка входа, игровой цикл, заставка
 ├── config.py            — окно, часы, шрифты
@@ -131,7 +132,7 @@ pip install pyinstaller
 ├── assets/              — спрайты, заставка
 ├── forUpdate/           — рабочий процесс обновлений (см. ниже)
 └── build.bat            — сборка в exe
-
+```
 
 ---
 
@@ -140,13 +141,13 @@ pip install pyinstaller
 Изменения в проекте вносятся через папку `forUpdate/` — она позволяет
 аккуратно применять патчи, не теряя старые версии файлов.
 
-
+```
 forUpdate/
 ├── newFix.txt              — описание фиксов и полные тексты файлов
 └── workScripts/
     ├── makeNewFiles.py     — разворачивает файлы из newFix.txt в forUpdate/
     └── copyNewFiles.py     — копирует файлы из forUpdate/ в проект
-
+```
 
 Порядок применения патча:
 
@@ -168,7 +169,7 @@ forUpdate/
 
 Пример:
 
-
+```python
 Mission(
     id="my_mission",
     title="Название",
@@ -183,7 +184,7 @@ Mission(
     reward=Reward(money=1500),
     fail_policy="RETRY",
 )
-
+```
 
 Доступные типы целей: `Reach`, `Kill`, `Steal`, `Survive`.
 Новые типы добавляются в `missions/objectives.py` — один класс,
