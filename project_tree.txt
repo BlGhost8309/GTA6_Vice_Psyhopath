@@ -1,0 +1,207 @@
+# Project tree: I:\Sergey\WorkHub\projects\GTA_6
+# Generated: 2026-10-08T19:13:09
+# .gitignore: found
+# .git dir:   found
+
+./
+├── __pycache__/   [JUNK -> add to .gitignore]
+│   ├── assets.cpython-311.pyc (8209 B)   [JUNK -> add to .gitignore]
+│   ├── config.cpython-311.pyc (1313 B)   [JUNK -> add to .gitignore]
+│   ├── data.cpython-311.pyc (2456 B)   [JUNK -> add to .gitignore]
+│   ├── state.cpython-311.pyc (3038 B)   [JUNK -> add to .gitignore]
+│   ├── utils.cpython-311.pyc (2888 B)   [JUNK -> add to .gitignore]
+│   └── world.cpython-311.pyc (10348 B)   [JUNK -> add to .gitignore]
+├── assets/
+│   ├── cars/
+│   │   ├── car_1.png (82922 B)
+│   │   ├── car_2.png (83680 B)
+│   │   ├── car_3.png (81769 B)
+│   │   ├── car_4.png (82498 B)
+│   │   └── car_5.png (83916 B)
+│   ├── .gitkeep (0 B)
+│   ├── boss_car.png (81732 B)
+│   ├── boss_smorch.png (118238 B)
+│   ├── boss_smorch_old.png (114688 B)
+│   ├── car.png (82786 B)
+│   ├── cop.png (110922 B)
+│   ├── cop_car.png (79661 B)
+│   ├── gangster.png (115736 B)
+│   ├── heli.png (84590 B)
+│   ├── ped.png (113564 B)
+│   ├── pimp.png (124545 B)
+│   ├── player.png (114707 B)
+│   ├── prostitute.png (119290 B)
+│   ├── splash.png (2501056 B)
+│   ├── tank.png (179350 B)
+│   └── weapons.png (55358 B)
+├── assets_full_size/
+│   ├── cars/
+│   │   ├── car_1.png (1068161 B)
+│   │   ├── car_2.png (1082721 B)
+│   │   ├── car_3.png (1067123 B)
+│   │   ├── car_4.png (1074779 B)
+│   │   └── car_5.png (1075566 B)
+│   ├── .gitkeep (0 B)
+│   ├── boss_car.png (1099036 B)
+│   ├── boss_smorch.png (1381051 B)
+│   ├── boss_smorch_old.png (1314585 B)
+│   ├── car.png (1068055 B)
+│   ├── cop.png (1305580 B)
+│   ├── cop_car.png (1032737 B)
+│   ├── gangster.png (1348464 B)
+│   ├── heli.png (1125578 B)
+│   ├── ped.png (1322054 B)
+│   ├── pimp.png (1476527 B)
+│   ├── player.png (1331236 B)
+│   ├── prostitute.png (1419913 B)
+│   ├── splash.png (2501056 B)
+│   ├── tank.png (1248288 B)
+│   └── weapons.png (1018648 B)
+├── build/   [JUNK -> add to .gitignore]
+│   ├── GTA6_Blood_Money/
+│   │   ├── localpycs/
+│   │   │   ├── pyimod01_archive.pyc (5459 B)   [JUNK -> add to .gitignore]
+│   │   │   ├── pyimod02_importers.pyc (34085 B)   [JUNK -> add to .gitignore]
+│   │   │   ├── pyimod03_ctypes.pyc (7034 B)   [JUNK -> add to .gitignore]
+│   │   │   ├── pyimod04_pywin32.pyc (1939 B)   [JUNK -> add to .gitignore]
+│   │   │   └── struct.pyc (360 B)   [JUNK -> add to .gitignore]
+│   │   ├── Analysis-00.toc (59745 B)
+│   │   ├── base_library.zip (1439447 B)
+│   │   ├── EXE-00.toc (15638 B)
+│   │   ├── GTA6_Blood_Money.pkg (39675192 B)
+│   │   ├── PKG-00.toc (13923 B)
+│   │   ├── PYZ-00.pyz (2831832 B)
+│   │   ├── PYZ-00.toc (28874 B)
+│   │   ├── warn-GTA6_Blood_Money.txt (5727 B)
+│   │   └── xref-GTA6_Blood_Money.html (464383 B)
+│   ├── GTA6_Vice_Psyhopath/
+│   │   ├── localpycs/
+│   │   │   ├── pyimod01_archive.pyc (5459 B)   [JUNK -> add to .gitignore]
+│   │   │   ├── pyimod02_importers.pyc (34085 B)   [JUNK -> add to .gitignore]
+│   │   │   ├── pyimod03_ctypes.pyc (7034 B)   [JUNK -> add to .gitignore]
+│   │   │   ├── pyimod04_pywin32.pyc (1939 B)   [JUNK -> add to .gitignore]
+│   │   │   └── struct.pyc (360 B)   [JUNK -> add to .gitignore]
+│   │   ├── Analysis-00.toc (59748 B)
+│   │   ├── base_library.zip (1439447 B)
+│   │   ├── EXE-00.toc (15668 B)
+│   │   ├── GTA6_Vice_Psyhopath.pkg (18969177 B)
+│   │   ├── PKG-00.toc (13950 B)
+│   │   ├── PYZ-00.pyz (2831832 B)
+│   │   ├── PYZ-00.toc (28877 B)
+│   │   ├── warn-GTA6_Vice_Psyhopath.txt (5727 B)
+│   │   └── xref-GTA6_Vice_Psyhopath.html (464383 B)
+│   └── main/
+│       ├── localpycs/
+│       │   ├── pyimod01_archive.pyc (5459 B)   [JUNK -> add to .gitignore]
+│       │   ├── pyimod02_importers.pyc (34085 B)   [JUNK -> add to .gitignore]
+│       │   ├── pyimod03_ctypes.pyc (7034 B)   [JUNK -> add to .gitignore]
+│       │   ├── pyimod04_pywin32.pyc (1939 B)   [JUNK -> add to .gitignore]
+│       │   └── struct.pyc (360 B)   [JUNK -> add to .gitignore]
+│       ├── Analysis-00.toc (59733 B)
+│       ├── base_library.zip (1439447 B)
+│       ├── EXE-00.toc (15506 B)
+│       ├── main.pkg (39674977 B)
+│       ├── PKG-00.toc (13807 B)
+│       ├── PYZ-00.pyz (2831372 B)
+│       ├── PYZ-00.toc (28862 B)
+│       ├── warn-main.txt (5727 B)
+│       └── xref-main.html (464075 B)
+├── dist/   [JUNK -> add to .gitignore]
+│   └── GTA6_Vice_Psyhopath.exe (19338841 B)
+├── entities/
+│   ├── __pycache__/   [JUNK -> add to .gitignore]
+│   │   ├── __init__.cpython-311.pyc (569 B)   [JUNK -> add to .gitignore]
+│   │   ├── bosses.cpython-311.pyc (2024 B)   [JUNK -> add to .gitignore]
+│   │   ├── npcs.cpython-311.pyc (3228 B)   [JUNK -> add to .gitignore]
+│   │   ├── player.cpython-311.pyc (1344 B)   [JUNK -> add to .gitignore]
+│   │   ├── projectiles.cpython-311.pyc (1254 B)   [JUNK -> add to .gitignore]
+│   │   └── vehicles.cpython-311.pyc (2088 B)   [JUNK -> add to .gitignore]
+│   ├── __init__.py (209 B)
+│   ├── bosses.py (848 B)
+│   ├── npcs.py (1483 B)
+│   ├── player.py (622 B)
+│   ├── projectiles.py (412 B)
+│   └── vehicles.py (1123 B)
+├── forUpdate/
+│   ├── assets.py (4395 B)
+│   ├── build.bat (453 B)
+│   ├── copyNewFiles.py (2198 B)
+│   ├── main.py (6701 B)
+│   ├── makeNewFiles.py (2134 B)
+│   ├── newFix.txt (15002 B)
+│   └── utils.py (1463 B)
+├── legacyForCreate/
+│   ├── createProject.py (2040 B)
+│   └── fill_from_markdown.py (2752 B)
+├── new/
+│   ├── main.py (4685 B)
+│   └── player.py (4919 B)
+├── render/
+│   ├── __pycache__/   [JUNK -> add to .gitignore]
+│   │   ├── __init__.cpython-311.pyc (7179 B)   [JUNK -> add to .gitignore]
+│   │   ├── camera.cpython-311.pyc (2578 B)   [JUNK -> add to .gitignore]
+│   │   ├── effects.cpython-311.pyc (7781 B)   [JUNK -> add to .gitignore]
+│   │   ├── entities.cpython-311.pyc (13921 B)   [JUNK -> add to .gitignore]
+│   │   ├── hud.cpython-311.pyc (9457 B)   [JUNK -> add to .gitignore]
+│   │   ├── overlays.cpython-311.pyc (5845 B)   [JUNK -> add to .gitignore]
+│   │   ├── sprites.cpython-311.pyc (2788 B)   [JUNK -> add to .gitignore]
+│   │   └── world.cpython-311.pyc (4245 B)   [JUNK -> add to .gitignore]
+│   ├── __init__.py (3916 B)
+│   ├── camera.py (1530 B)
+│   ├── effects.py (4052 B)
+│   ├── effects.py.bak (4075 B)   [already in .gitignore]
+│   ├── entities.py (8100 B)
+│   ├── entities.py.bak (8062 B)   [already in .gitignore]
+│   ├── hud.py (4936 B)
+│   ├── overlays.py (3836 B)
+│   ├── sprites.py (1421 B)
+│   ├── world.py (2398 B)
+│   └── world.py.bak (2078 B)   [already in .gitignore]
+├── systems/
+│   ├── __pycache__/   [JUNK -> add to .gitignore]
+│   │   ├── __init__.cpython-311.pyc (710 B)   [JUNK -> add to .gitignore]
+│   │   ├── bosses.cpython-311.pyc (12952 B)   [JUNK -> add to .gitignore]
+│   │   ├── cheats.cpython-311.pyc (4216 B)   [JUNK -> add to .gitignore]
+│   │   ├── combat.cpython-311.pyc (15092 B)   [JUNK -> add to .gitignore]
+│   │   ├── effects.cpython-311.pyc (3578 B)   [JUNK -> add to .gitignore]
+│   │   ├── input.cpython-311.pyc (3596 B)   [JUNK -> add to .gitignore]
+│   │   ├── interactions.cpython-311.pyc (9722 B)   [JUNK -> add to .gitignore]
+│   │   ├── player.cpython-311.pyc (7856 B)   [JUNK -> add to .gitignore]
+│   │   ├── police.cpython-311.pyc (12515 B)   [JUNK -> add to .gitignore]
+│   │   ├── spawning.cpython-311.pyc (5749 B)   [JUNK -> add to .gitignore]
+│   │   ├── traffic.cpython-311.pyc (11435 B)   [JUNK -> add to .gitignore]
+│   │   ├── wanted.cpython-311.pyc (742 B)   [JUNK -> add to .gitignore]
+│   │   └── weather_time.cpython-311.pyc (2388 B)   [JUNK -> add to .gitignore]
+│   ├── __init__.py (413 B)
+│   ├── bosses.py (8801 B)
+│   ├── cheats.py (3274 B)
+│   ├── combat.py (11069 B)
+│   ├── effects.py (2038 B)
+│   ├── input.py (2755 B)
+│   ├── input.py.bak (2117 B)   [already in .gitignore]
+│   ├── interactions.py (6779 B)
+│   ├── player.py (4919 B)
+│   ├── player.py.bak (4728 B)   [already in .gitignore]
+│   ├── police.py (7183 B)
+│   ├── spawning.py (2617 B)
+│   ├── traffic.py (6575 B)
+│   ├── wanted.py (317 B)
+│   └── weather_time.py (1417 B)
+├── .gitignore (219 B)
+├── assets.py (4395 B)
+├── build.bat (459 B)
+├── codeFill.py (5572 B)
+├── config.py (629 B)
+├── data.py (2195 B)
+├── main.py (6701 B)
+├── state.py (2541 B)
+├── tree_view.py (4937 B)
+├── utils.py (1463 B)
+├── world.py (5530 B)
+├── Инструкция1.txt (2143 B)
+└── Инструкция2.txt (824 B)
+
+────────────────────────────────────────────────────────────
+dirs: 22, files: 174
+junk (NOT ignored): 54
+already ignored:    5

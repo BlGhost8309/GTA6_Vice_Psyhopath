@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# PyInstaller
+build/
+dist/
+*.spec
+localpycs/
+*.toc
+*.pyz
+*.pkg
+warn-*.txt
+xref-*.html
+*.manifest
+
+# venv
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+*.tmp
+*.log
+
+# Проектное
+forUpdate/
